@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+_site/
+tmp/
+build/
+cache/
+docs/
+.idea/
+
+bootstrap/compiled.php
+composer.phar
+composer.lock
+
+*DS_Store

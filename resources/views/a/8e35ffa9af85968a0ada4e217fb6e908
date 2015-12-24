@@ -1,0 +1,90 @@
+<?php $__env->startSection('content'); ?>
+    <div class="portlet light">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-cogs font-green-sharp"></i>
+                <span class="caption-subject font-green-sharp bold uppercase">Create Product</span>
+            </div>
+        </div>
+        <?php if($errors->any()): ?>
+            <div id="form-errors">
+                <p>The following error has accoured:</p>
+                <ul>
+                    <?php foreach($errors->all() as $error): ?>
+                        <li class="btn btn-danger "><i class="fa fa-warning"></i><?php echo e($error); ?></li><br><br>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+        <hr/>
+        <div class="portlet-body form">
+            <?php echo Form::model($product,array('url' => 'admin/products/create','role' => 'form' , 'files' => true )); ?>
+
+            <div class="form-group">
+                <?php echo Form::label('title', 'Product Name:',['class'=>'form-label']); ?>
+
+                <?php echo Form::text('title',null,['class'=>'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('price', 'Product Price:',['class'=>'form-label']); ?>
+
+                <?php echo Form::text('price',null,['class'=>'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('info', 'Product Mini Info :',['class'=>'form-label']); ?>
+
+                <?php echo Form::text('info',null,['class'=>'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('description', 'Product Description:',['class'=>'form-label']); ?>
+
+                <?php echo Form::textarea('description',null,['class'=>'form-control','row' => '2']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('status', 'Product Status:',['class'=>'form-label']); ?>
+
+                <?php echo Form::select('status',(['1' => 'In Stock','0' => 'Out of Stock']), null,['class' => 'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('image', 'Product Image :',['class'=>'form-label']); ?>
+
+                <?php echo Form::file('image',null,['class'=>'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <?php echo Form::label('profit', 'Product Profit :',['class'=>'form-label']); ?>
+
+                <?php echo Form::text('profit',null,['class'=>'form-control']); ?>
+
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <?php echo Form::label('Link Category'); ?><br />
+                    <?php echo Form::select('category_id',(['0' => 'Select a Category'] + $cato),null,['class' => 'form-control']); ?>
+
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <?php echo Form::submit('Submit', ['class' => 'btn blue']); ?>
+
+            </div>
+
+            </form>
+            <?php echo Form::close(); ?>
+
+        </div>
+    </div>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?>
+    Manage Products
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('subtitle'); ?>
+    Create & Delete Products
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('a', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

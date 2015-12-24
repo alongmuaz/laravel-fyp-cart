@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="../vendor/autoload.php"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         syntaxCheck="true"
+         verbose="true"
+         colors="true"
+>
+  <testsuites>
+    <testsuite name="Package Test Suite">
+      <directory suffix=".php">../tests/</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">../src/Khill/Lavacharts</directory>
+      <exclude>
+        <directory suffix=".php">../src/Khill/Lavacharts/Facade</directory>
+        <directory suffix=".php">../src/Khill/Lavacharts/Traits</directory>
+        <directory suffix=".php">../src/Khill/Lavacharts/Laravel</directory>
+      </exclude>
+    </whitelist>
+  </filter>
+
+  <listeners>
+    <listener class="\MyBuilder\PhpunitAccelerator\TestListener"/>
+    <listener class="\Mockery\Adapter\Phpunit\TestListener"></listener>
+  </listeners>
+</phpunit>

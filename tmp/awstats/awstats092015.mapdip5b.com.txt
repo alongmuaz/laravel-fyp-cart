@@ -1,0 +1,513 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201509 will be lost/reset.
+# Last config file used to build this data file was /home/mapdipbc/tmp/awstats/awstats.mapdip5b.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2693                
+POS_VISITOR 9216                
+POS_DAY 12468               
+POS_DOMAIN 3537                
+POS_LOGIN 3900                
+POS_ROBOT 4055                
+POS_WORMS 4444                
+POS_EMAILSENDER 4575                
+POS_EMAILRECEIVER 4718                
+POS_SESSION 12669               
+POS_SIDER 12876               
+POS_FILETYPES 4853                
+POS_DOWNLOADS 5126                
+POS_OS 5174                
+POS_BROWSER 5399                
+POS_SCREENSIZE 5999                
+POS_UNKNOWNREFERER 6073                
+POS_UNKNOWNREFERERBROWSER 6239                
+POS_ORIGIN 6423                
+POS_SEREFERRALS 6565                
+POS_PAGEREFS 6729                
+POS_SEARCHWORDS 6993                
+POS_KEYWORDS 7145                
+POS_MISC 2355                
+POS_ERRORS 7204                
+POS_CLUSTER 3756                
+POS_SIDER_404 7355                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151001003821 134 33895 11170854171847
+FirstTime 20150926214100
+LastTime 20150930210101
+LastUpdate 20151001193916 134 0 133 0 0
+TotalVisits 91                  
+TotalUnique 75                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 78                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 120 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 162 707665 34 60 438956
+1 150 667 4157642 91 196 1537910
+2 92 1153 1818473 31 85 970309
+3 69 1001 1559737 29 59 758457
+4 40 391 1010756 18 35 312933
+5 27 66 561271 24 51 951132
+6 0 0 0 2 2 52131
+7 2 3 62178 2 2 58942
+8 12 28 621579 1 1 23160
+9 30 386 5636076 24 93 1450368
+10 86 259 2621169 40 99 990925
+11 68 284 4968586 20 50 628967
+12 79 663 1956168 39 78 757337
+13 69 1200 4031103 19 30 360965
+14 60 564 5074559 32 385 5665857
+15 43 293 3796619 28 44 406263
+16 46 85 1819078 33 36 528983
+17 49 217 5336326 34 64 2173189
+18 38 213 2321116 20 35 355884
+19 99 339 6868251 43 68 868569
+20 51 137 2692365 28 53 422181
+21 60 665 1401775 93 140 1054074
+22 51 339 2419926 31 71 778447
+23 58 346 1366211 31 49 413846
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+my 1263 9193 55160617
+us 26 123 2942262
+cn 13 81 2740426
+jp 4 4 68880
+mx 2 2 40200
+fr 2 2 20100
+de 2 2 51180
+ru 1 1 20100
+ca 1 52 1744620
+nl 1 1 20244
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 95 2465101 20150930232244 6
+google[_+\s]web[_+\s]preview 35 798905 20150928094639 0
+php 14 72076 20150928090259 0
+robot 10 205577 20150928090255 2
+crawl 3 93150 20150930201103 0
+no_user_agent 2 40200 20150927163849 0
+unknown 1 24 20150930033738 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 2084 10060491 0 0
+png 887 3265102 0 0
+woff2 23 965260 0 0
+woff 99 1126596 0 0
+html 187 5193433 0 0
+js 3129 14504858 0 0
+jpg 1022 4974820 0 0
+Unknown 1006 22339946 0 0
+gif 1023 198719 0 0
+svg 1 179404 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 532 92
+winlong 1 1
+winxp 11 11
+winnt 119 7
+linux 38 5
+win7 8523 1151
+macosx 138 25
+winunknown 1 1
+win8 48 6
+Unknown 16 12
+win8.1 33 3
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+msie6.0 5 5
+firefox28.0 1 1
+chrome32.0.1667.0 1 1
+safari8.0.8 54 11
+firefox40.0 104 9
+chrome34.0.1847.137 1 1
+opera32.0.1948.19 208 44
+android 55 4
+chrome28.0.1500.94 48 7
+chrome34.0.1847.114 202 26
+chrome31.0.1650.63 38 3
+msie5.5 51 0
+chrome39.0.2171.59 62 7
+chrome31.0.1650.48 78 10
+firefox31.0 33 3
+msie8.0 26 9
+chrome39.0.0.0 79 31
+chrome45.0.2454.94 52 10
+firefox33.0 1 1
+mozilla 7 7
+chrome45.0.2454.101 8271 1105
+firefox14.0.1 1 1
+chrome37.0.2062.120 1 1
+firefox3.6.3 1 1
+chrome45.0.2454.84 34 7
+chrome11.0.696.71 2 2
+Unknown 10 6
+safari 35 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Google_favicon 20150929232301
+Mozilla/4.0_(compatible;_Synapse) 20150930175920
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Google_favicon 20150929232301
+python-requests/2.5.1_CPython/2.7.6_Windows/2008ServerR2 20150929212602
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 235 297
+From1 1 1
+From2 2 2
+From3 10 10
+From4 1067 9151
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://best-seo-report.com 7 7
+https://www.facebook.com 2 2
+http://billing.netkl.com/xetama/clientsservices.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 377 144176
+206 55 675329
+500 169 4973517
+301 51 13577
+404 840 12478153
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 46
+/register.html 2 -
+/categories/create 2 http://mapdip5b.com/admin/categories/view
+/mobile 4 -
+/store/login.html 1 -
+/img/slider/s31.png 2 http://www.mapdip5b.com/
+/admin.php 4 -
+/store/5 2 -
+/img/slider/3.png 85 http://www.mapdip5b.com/
+/img/slider/slide-back.jpg 94 http://www.mapdip5b.com/
+/admin/process35 1 http://mapdip5b.com/admin/view/35
+/img/slider/girl.png 2 http://www.mapdip5b.com/
+/store/10 2 -
+/store/test 3 http://mapdip5b.com/store/test
+/a/assets/admin/layout3/img/muaz.jpg 404 http://mapdip5b.com/admin/products/extra/1
+/index.html 1 http://mapdip5b.com/admin
+/store/11 2 -
+/2 1 -
+/img/products/09-24-2015-17_15_36-biru.jpg 2 -
+/img/products/09-25-2015-23_50_23-kelabu-hitam.jpg 4 http://mapdip5b.com/admin/products/view
+/admin/process/35 2 -
+/store/1 1 -
+/login.html 2 -
+/store/logo.png 1 http://mapdip5b.com/store/wel
+/store/register.html 1 -
+/1 2 -
+/store/checkoutbaru 1 -
+/m 8 -
+/img/payment/09-26-2015-01_47_24-maybank2u.gif 4 http://mapdip5b.com/store/payment
+/img/slider/s33.png 2 http://www.mapdip5b.com/
+/administrator/index.php 4 -
+/admin/settings/1 2 -
+/www.webxdoklagi.com 2 -
+/3 1 -
+/store/6 2 -
+/css/SourceSansPro-Regular.ttf 1 http://mapdip5b.com/css/style.css
+/store/8 2 -
+/store/12 2 -
+/img/products/09-25-2015-12_13_30-biru.jpg 3 http://mapdip5b.com/admin/products/view
+/settings 2 http://mapdip5b.com/admin
+/wp-login.php 4 -
+/store/7 2 -
+/s/js/jquery.min.map 15 -
+/img/slider/1.png 78 http://www.mapdip5b.com/
+/img/slider/s32.png 2 http://www.mapdip5b.com/
+/img/slider/2.png 74 http://www.mapdip5b.com/
+/store/9 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 78
+123.136.112.20 190 1241 4458776 20150928025853
+203.106.152.51 143 1679 4753698 20150930201458
+123.136.111.35 140 442 2767141 20150927211016
+123.136.112.27 125 743 2358698 20150927055632
+123.136.111.26 87 634 2296911 20150928130539
+123.136.107.101 74 357 1645180 20150929131104
+123.136.111.22 57 669 1458747 20150930043848
+123.136.106.42 45 234 2040921 20150929110250
+123.136.112.71 43 988 1084091 20150930031723
+103.1.70.150 41 312 2079026 20150929013041
+203.106.151.241 37 145 3964777 20150928200102
+123.136.111.90 33 253 580487 20150928032243
+115.164.51.104 21 62 449350 20150927233919
+123.136.112.187 20 164 384558 20150929213133
+103.1.70.144 18 152 2674186 20150929110714
+123.136.111.43 17 51 336060 20150929151051
+118.101.154.110 16 123 409922 20150927180849
+123.136.111.77 16 44 292280 20150927120642
+175.136.79.99 15 99 2126902 20150930173959
+103.1.70.120 14 124 2512179 20150929150753
+203.106.151.95 13 90 2024785 20150929193157
+103.1.70.87 13 51 2030184 20150928085505
+123.136.107.65 13 70 2230052 20150929132829
+219.92.84.117 11 39 896201 20150927223154
+175.143.13.82 10 28 523203 20150928162131
+40.76.49.66 1 1 31385 20150930205936
+119.188.70.25 2 19 672592 20150930142054
+95.165.111.222 1 1 20100 20150927210726
+106.120.160.119 3 3 92060 20150930141427
+82.235.56.238 1 1 0 20150927163846
+192.237.216.89 1 1 31400 20150928141102
+110.159.168.203 3 33 736422 20150927153724
+166.78.181.113 1 1 21881 20150928012806
+100.43.130.171 3 38 861350 20150930111941
+64.69.91.210 1 1 20100 20150927180054
+107.173.153.87 1 1 31098 20150930082054
+66.249.85.135 0 1 3332 
+66.249.84.222 0 1 3332 
+176.9.50.43 1 1 31080 20150928181748
+84.177.7.65 1 1 20100 20150927190302
+66.249.85.252 2 2 51180 20150929025648
+192.99.150.120 1 52 1744620 20150928085555
+123.136.106.178 2 35 796853 20150928181104
+150.70.97.85 1 1 20100 20150927165438
+123.136.111.127 8 90 2991160 20150929175229
+107.173.159.56 1 1 31098 20150930050924
+54.87.91.74 1 1 31098 20150930070233
+203.106.151.185 7 34 789839 20150927160046
+5.39.93.201 1 1 20100 20150927164912
+123.136.106.50 10 28 493929 20150928185644
+148.240.174.247 2 2 40200 20150927200551
+66.249.84.226 2 3 65510 20150929232259
+150.70.173.55 1 1 20100 20150927153925
+103.1.70.202 2 11 54046 20150929043359
+203.106.152.128 7 48 1047267 20150930151043
+107.173.173.13 1 1 31098 20150930113046
+66.249.84.228 1 1 8506 20150929232301
+66.249.85.131 0 1 3332 
+203.106.149.164 1 2 31080 20150929074228
+150.70.173.47 1 1 20100 20150927164950
+74.115.0.214 1 9 125603 20150928223021
+40.114.15.135 1 1 31430 20150929212602
+183.57.152.30 3 20 672745 20150930112221
+150.70.97.116 1 1 8580 20150927140829
+119.188.70.24 1 18 599969 20150930112334
+115.164.53.127 6 19 362655 20150928132223
+52.89.221.229 2 35 796826 20150930145739
+23.94.85.213 1 1 46747 20150930144538
+103.1.70.159 1 30 260927 20150930210101
+123.136.112.38 3 45 720412 20150929174308
+172.245.114.165 1 1 31098 20150929180747
+14.1.193.84 1 24 497712 20150929094306
+208.184.112.74 1 18 591307 20150927163901
+94.228.142.54 1 1 20244 20150927134818
+158.69.2.151 1 1 31400 20150928125824
+107.173.161.146 1 1 31053 20150930175920
+107.173.155.139 1 1 31098 20150929132427
+183.57.152.32 4 21 703060 20150930112154
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20150926 74 539 1336462 2
+20150927 282 1038 9658556 27
+20150928 410 2742 17349973 17
+20150929 270 1492 19383075 21
+20150930 279 3650 15080563 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 7
+0s-30s 46
+15mn-30mn 8
+2mn-5mn 6
+30s-2mn 7
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 79
+/ 187 5193433 61 45
+/store/cart 118 2629314 0 2
+/store/checkout 92 2533534 3 3
+/admin 81 1748818 1 3
+/a/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff 56 177972 1 2
+/admin/products/view 47 936616 0 1
+/store/test 47 1131853 1 2
+/admin/view/35 46 1540141 1 1
+/store/payment 42 1058960 0 4
+/admin/products/create 41 705053 1 0
+/admin/categories/view 34 539598 0 0
+/s/css/fonts/flexslider-icon.woff 30 19020 0 1
+/auth/login 28 233305 7 2
+/store/category/1 28 787300 0 1
+/store/view/1 27 647381 0 0
+/store/thankyou 26 461316 0 2
+/store/category/2 25 747828 0 1
+/store/search 19 554953 0 0
+/store/contact 19 440715 0 2
+/store/wel 18 16896 2 2
+/s/fonts/fontawesome-webfont.woff2 16 681360 0 1
+/store/view/11 13 383388 0 1
+/store/category/3 13 358301 1 1
+/cpanel 13 111475 2 0
+/s/fonts/fontawesome-webfont.woff 11 786588 0 6
+/admin/products/extra/1 2 32303 0 0
+/store/view/2 5 144054 0 0
+/password/email 2 5346 0 0
+/admin/payments 5 84586 0 0
+/admin/products/extra/9 6 109610 0 0
+/store/view/6 1 30038 0 0
+/admin/products/update/4 2 32200 0 0
+/admin/categories/create 11 165307 0 0
+/admin/process/35 7 4742 0 0
+/admin/products/extra/8 5 88909 0 0
+/admin/settings 10 164365 0 0
+/auth/register 5 16610 1 0
+/admin/view/17 1 31916 0 0
+/admin/categories/details/2 2 46756 0 0
+/store/view/10 8 238744 0 1
+/admin/view/34 1 33373 0 0
+/store/view/8 9 272295 5 2
+/admin/products/update/10 5 83432 0 0
+/store/view/7 8 254177 0 0
+/a/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2 7 283900 0 0
+/admin/products/extra/11 3 50159 0 0
+/admin/view/39 2 65611 0 0
+/admin/products/extra/10 4 69179 0 0
+/home 1 2228 1 0
+/admin/products/update/5 2 32249 0 0
+/admin/view/38 2 71238 0 0
+/admin/products/update/7 7 117590 0 0
+/store/view/5 5 151335 1 0
+/store/view/12 10 300479 0 0
+/admin/products/extra/4 8 154464 0 0
+/admin/products/update/1 1 16570 0 0
+/admin/products/update/9 2 32392 0 0
+/admin/view/37 3 97296 0 1
+/admin/categories/details/3 5 93367 0 0
+/admin/products/update/3 3 48174 0 0
+/admin/categories/details/1 8 203472 0 1
+/admin/view/14 8 262135 0 0
+/admin/products/update/2 5 82410 0 0
+/admin/products/update/6 2 32163 0 0
+/a/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff 2 143016 0 1
+/store/view/3 8 195252 0 0
+/admin/products/extra/12 5 88890 0 0
+/admin/products/update/11 2 32633 0 0
+/admin/products/extra/6 4 69018 0 0
+/admin/products/update/8 2 32520 0 0
+/webmail 2 17160 2 2
+/admin/products/extra/5 5 88880 0 0
+/admin/products/update/12 2 32162 0 0
+/admin/products/extra/7 6 109640 0 0
+/store/view/9 2 60867 0 0
+/admin/products/extra/2 4 68999 0 0
+/admin/view/4 1 31915 0 0
+/admin/view/36 3 102895 0 0
+/admin/products/extra/3 7 121096 0 0
+END_SIDER
