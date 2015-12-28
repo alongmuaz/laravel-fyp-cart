@@ -1,23 +1,68 @@
-## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+##Laravel 5.0 Base Ecommerce Site
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+##<h2>Ecommerce Site version Politeknik Seberang Perai</h2>
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+<b>Completed FYP Beta Version </b>
 
-## Official Documentation
+- The most badass FYP 
+- Powered by Laravel 5.0
+- Package/Module :
+<br>
+https://github.com/Crinsane/LaravelShoppingcart
+<br>
+image.intervention.io/
+<br>
+https://github.com/greggilbert/recaptcha
+<br>
+https://github.com/Zizaco/entrust
+<br>
+- 39 days dev + 14 days touchup 
+- 400 hours and counting on 
+- Difficulty ? : super baddass 
+- 17 tables , 7 foreign key (not including entrust roles table)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+<b>Specials</b> :
+- Accept only offline payment
+- No user registration
+- Have GST Algorithm 
+- Layout powered by Bootstrap 3.3 
 
-## Contributing
+<b>Demo?</b>
+Front end : www.mapdip5b.com
+<br>
+Back end : www.mapdip5b.com/admin , user : demo@admin.com , pass : demo1234 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+"When your stinky pillow suddenly forgot their master....."
 
-### License
+<b>Credit</b> :
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+thanks to Jeffrey Way for amazing tutorials , Mr Hafiz , Mr Asyraf  and last not least the community of StackOverFlow.com 
+
+Front end them : https://wrapbootstrap.com/theme/3-in-1-admin-front-end-e-commerce-WB0G69690
+<br>
+Admin theme : http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469
+
+(Uncle Google as well wakakakakaka ) 
+
+And also to them that cover my rest assignment .  
+
+Regards .... 
+
+Mu'az 
+#Notes :
+
+1. This is beta version 
+2. No SQL dump were provided yet
+3. Use at your own risk 
+4. Beware of routing, i'm using implicit routing 
+5. Give a credit in link to this repo 
+
+
+#License 
+All enhancement from the original laravel base are belongs to me. 
+Any changes , modifying , upgrading, copy, whatever you did , please give me a credit . 
+It might easy for you but hard for me for sure :) 
+
+
+
