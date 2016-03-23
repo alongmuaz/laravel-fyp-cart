@@ -47,4 +47,11 @@ class PaymentController extends BaseController {
         return redirect('admin/payments')->with('flash_message', 'payment created');
     }
 
+    public function postDestroy($id)
+    {
+        Payment::where('id',$id)->delete();
+
+        return redirect ('admin/payments')->with('flash_message','Payment Option Deleted');
+    }
+
 }
