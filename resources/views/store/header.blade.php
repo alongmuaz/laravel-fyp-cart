@@ -5,7 +5,7 @@
 					<div class="col-md-4">
 						<!-- Logo. Use class "color" to add color to the text. -->
 						<div class="logo">
-							<h1>{{$set->site_title}}</h1>
+							<h1>@if (count($set) > 0 ) {{$set->site_title}} @endif</h1>
 							<p class="meta">-</p>
 						</div>
 					</div>

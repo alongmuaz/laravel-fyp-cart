@@ -5,8 +5,8 @@
     <!-- Title here -->
     <title>ABC SilkScreen Works</title>
     <!-- Description, Keywords and Author -->
-    <meta name="description" content="{{$settings->site_description}}">
-    <meta name="keywords" content="{{$settings->site_keyword}}">
+    <meta name="description" content="@if (count($settings) > 0 ) {{$settings->site_description}} @endif">
+    <meta name="keywords" content="@if (count($settings) > 0 ) {{$settings->site_keyword}} @endif">
     <meta name="author" content="Mu'az">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

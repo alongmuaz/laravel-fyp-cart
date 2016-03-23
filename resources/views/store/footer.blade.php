@@ -34,7 +34,7 @@
                         <div class="widget">
                             <h5>About Us</h5>
                             <hr />
-                            <p>{{$settings->about}}</p>
+                            <p>@if (count($settings) > 0) {{$settings->about}} @endif</p>
                         </div>
                     </div>
                     <div class="col-md-4">
